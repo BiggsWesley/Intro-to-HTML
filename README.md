@@ -5,4 +5,6 @@
     </li>
     <li><a href="html5_intro_css/index.html" target="_blank">Intro to CSS</a>
     </li>
+    <li><a href="advanced_css/index.html" target="_blank">Advanced CSS</a>
+    </li>
 </ul>
