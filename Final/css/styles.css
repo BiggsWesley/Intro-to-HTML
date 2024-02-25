@@ -1,0 +1,56 @@
+/* Global */
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    color: greenyellow;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+nav li a:hover {
+    color: #640e77;
+}
+
+.experience {
+    display: block;
+    text-align: left;
+    height: 10px;
+}
+
+.experience h2 {
+    text-decoration: none;
+}
+
+img {
+    background-color: white;
+}
