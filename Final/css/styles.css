@@ -24,7 +24,6 @@ body {
 }
 h1, h2 ,h3, h4 {
     font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
 }
@@ -65,7 +64,7 @@ footer {
 /* Experience styles */
 #experience {
     display: block;
-    text-align: left;
+    text-align: center;
 }
 
 #experience h2, h3 {
@@ -118,7 +117,7 @@ footer {
         font-size: 3vw;
     }
     nav li {
-        padding: auto;
+        padding: 3;
     }
     img {
         width: 70%;
@@ -192,7 +191,7 @@ footer {
         font-size: 2vw;
     }
     nav li {
-        padding: auto;
+        padding: 3;
     }
     .OA {
         display: flex;
