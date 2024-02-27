@@ -117,7 +117,7 @@ footer {
         font-size: 3vw;
     }
     nav li {
-        padding: 3;
+        padding: 3px;
     }
     img {
         width: 70%;
@@ -191,7 +191,7 @@ footer {
         font-size: 2vw;
     }
     nav li {
-        padding: 3;
+        padding: 3px;
     }
     .OA {
         display: flex;
