@@ -9,4 +9,6 @@
     </li>
     <li><a href="responsive/index.html" target="_blank">Responsive Design</a>
     </li>
+    <li><a href="final/index.html" target="_blank">Final</a>
+    </li>
 </ul>
