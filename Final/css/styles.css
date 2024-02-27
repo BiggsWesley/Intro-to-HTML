@@ -3,13 +3,30 @@
 img {
     display: block;
     margin: 0 auto;
-    width: 100%;
+    width: 90%;
+}
+
+body img {
+    align-self: center;
+    border: 5px solid black;
+}
+
+#container {
+    border: 5px solid white;
 }
 
 body {
     background-color: black;
     color: white;
     text-align: center;
+    width: fit-content;
+    font-family: "Roboto Slab", serif;
+}
+h1, h2 ,h3, h4 {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
 nav {
@@ -25,7 +42,7 @@ nav li {
     display: block;
 }
 
-nav li a {
+a {
     display: block;
     height: 30px;
     line-height: 30px;
@@ -37,20 +54,194 @@ nav li a {
     text-decoration:none;
 }
 
-nav li a:hover {
+a:hover {
     color: #640e77;
 }
 
-.experience {
+footer {
+    text-align: center;
+}
+
+/* Experience styles */
+#experience {
     display: block;
     text-align: left;
-    height: 10px;
 }
 
-.experience h2 {
+#experience h2, h3 {
     text-decoration: none;
+    text-align: center;
 }
 
-img {
-    background-color: white;
+#experience h4 {
+    font-weight: bold;
+}
+
+
+
+/* Folio styles */
+#folio h3 {
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: underline;
+}
+
+#folio hr {
+    position: relative;
+    top: 20px;
+    border-top: 5px solid white;
+}
+
+#folio h2 {
+    color: orangered;
+}
+
+/* Tablet */
+
+@media(min-width: 780px) {
+    h1 {
+        font-size: 6vw;
+    }
+    h2 {
+        font-size: 4vw;
+    }
+    h3 {
+        font-size: 3vw;
+    }
+    h4, h5 {
+        font-size: 2vw;
+    }
+    p {
+        font-size: 2vw;
+    }
+    a {
+        font-size: 3vw;
+    }
+    nav li {
+        padding: auto;
+    }
+    img {
+        width: 70%;
+        height: auto;
+    }
+    .OA {
+        display: flex;
+        justify-content: center;
+    }
+    .OA img {
+        width: 20%;
+    }
+    .CW {
+        display: flex;
+        justify-content: center;
+    }
+    .CW img {
+        width: 20%;
+    }
+    .Studies {
+        display: flex;
+        justify-content: center;
+    }
+    .Studies img {
+        width: 18%;
+    }
+    .threedee {
+        display: flex;
+        justify-content: center;
+    }
+    .threedee img {
+        width: 45%;
+    }
+    #experience li{
+        font-size: 3vw;
+    }
+    hr {
+        border-top: 10px solid white;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1026px) {
+    img {
+        width: 30%;
+    }
+
+    nav li {
+        padding: 10px;
+    }
+    #container {
+        width: 90%;
+        margin: 20px auto;
+    }
+    h1 {
+        font-size: 6vw;
+    }
+    h2 {
+        font-size: 2vw;
+    }
+    h3 {
+        font-size: 3vw;
+    }
+    h4, h5 {
+        font-size: 1.5vw;
+    }
+    p {
+        font-size: 1vw;
+    }
+    a {
+        font-size: 2vw;
+    }
+    nav li {
+        padding: auto;
+    }
+    .OA {
+        display: flex;
+        justify-content: center;
+    }
+    .OA img {
+        width: 20%;
+    }
+    .CW {
+        display: flex;
+        justify-content: center;
+    }
+    .CW img {
+        width: 20%;
+    }
+    .Studies {
+        display: flex;
+        justify-content: center;
+    }
+    .Studies img {
+        width: 18%;
+    }
+    .threedee {
+        display: flex;
+        justify-content: center;
+    }
+    .threedee img {
+        width: 45%;
+    }
+    #experience ul {
+        list-style: none;
+        padding: 0;
+    }
+    #experience li{
+        font-size: 1.5vw;
+        text-align: center;
+        text-decoration: none;
+    }
+    #experience img {
+        width: 25%;
+    }
+    hr {
+        border-top: 10px solid white;
+    }
+    #folio a {
+        padding: 5px;
+    }
+    p {
+        text-align: center;
+        margin: 100px;
+    }
 }
